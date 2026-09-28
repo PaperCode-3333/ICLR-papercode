@@ -1,0 +1,1 @@
+Describe the partner with exactly one English adjective. Reply with one English adjective only, with no spaces, punctuation, or explanation.

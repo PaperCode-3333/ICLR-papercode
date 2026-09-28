@@ -1,0 +1,19 @@
+# Selected versions observed in the source runtime; Python 3.12.
+httpx==0.28.1
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.0
+matplotlib==3.11.0
+PyYAML==6.0.3
+Pillow==12.3.0
+dulwich==0.24.8
+absl-py==2.3.1
+immutabledict==4.2.1
+langdetect==1.0.9
+nltk==3.9.2
+transformers==4.57.6
+sentencepiece==0.2.1
+protobuf==6.33.6
+tqdm==4.67.1
+wonderwords==3.0.1
+tenacity==9.1.4

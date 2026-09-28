@@ -1,0 +1,130 @@
+[
+  {
+    "id": "C00",
+    "name": "baseline_bridge0",
+    "bridge": "bridge0",
+    "extra": null,
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C01",
+    "name": "baseline_bridge1",
+    "bridge": "bridge1",
+    "extra": null,
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C02",
+    "name": "baseline_bridge3_self",
+    "bridge": "bridge3",
+    "extra": null,
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C03",
+    "name": "adjacent_self_adjective_echo",
+    "bridge": "bridge3",
+    "extra": "Your previous one-word description of this partner was: \"{self_adjective}\".",
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C04",
+    "name": "same_partner_binding_cue",
+    "bridge": "bridge3",
+    "extra": "The partner in this investment game is exactly the same individual from the first task.",
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C05",
+    "name": "social_relevance_cue",
+    "bridge": "bridge3",
+    "extra": "You may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C06",
+    "name": "external_matched_adjective",
+    "bridge": "bridge0",
+    "extra": "The partner descriptor for this session is: \"{matched_adjective}\".",
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C07",
+    "name": "external_verified_count",
+    "bridge": "bridge3",
+    "extra": "System summary: the partner's report matched the previously locked choice in {n} of 12 rounds.",
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C08",
+    "name": "ordinal_caution_bridge",
+    "bridge": "bridge3",
+    "extra": null,
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C09",
+    "name": "non_evaluative_one_word_control",
+    "bridge": "color",
+    "extra": null,
+    "return_condition": "fixed",
+    "family": "core"
+  },
+  {
+    "id": "C10",
+    "name": "instrumental_relevance_control",
+    "bridge": "bridge3",
+    "extra": "In this investment game, the partner's verified report consistency from the first task is predictive of return behavior: partners with more verified-consistent reports have a higher fixed return rate in this game. This relationship is part of the game.",
+    "return_condition": "fixed_linked",
+    "family": "instrumental"
+  },
+  {
+    "id": "C11",
+    "name": "echo_plus_social_relevance",
+    "bridge": "bridge3",
+    "extra": "Your previous one-word description of this partner was: \"{self_adjective}\".\nYou may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "return_condition": "fixed",
+    "family": "adaptive"
+  },
+  {
+    "id": "C12",
+    "name": "count_plus_social_relevance",
+    "bridge": "bridge3",
+    "extra": "System summary: the partner's report matched the previously locked choice in {n} of 12 rounds.\nYou may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "return_condition": "fixed",
+    "family": "adaptive"
+  },
+  {
+    "id": "C13",
+    "name": "ordinal_plus_social_relevance",
+    "bridge": "bridge3",
+    "extra": "You may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "return_condition": "fixed",
+    "family": "adaptive"
+  },
+  {
+    "id": "C14",
+    "name": "weak_mapping_cue",
+    "bridge": "bridge3",
+    "extra": "When deciding how much to invest, lower trust in a partner may justify greater caution; choose the investment amount using your own judgment.",
+    "return_condition": "fixed",
+    "family": "adaptive"
+  },
+  {
+    "id": "C15",
+    "name": "strong_monotonic_mapping_upper_bound",
+    "bridge": "bridge3",
+    "extra": "All else equal, invest more with a partner you judge more trustworthy and less with a partner you judge less trustworthy. Choose the exact amount yourself.",
+    "return_condition": "fixed",
+    "family": "adaptive"
+  }
+]

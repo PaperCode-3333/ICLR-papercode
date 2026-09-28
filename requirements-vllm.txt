@@ -1,0 +1,5 @@
+# Selected versions observed in the source runtime; Python 3.12.
+# Install in the model-serving environment; select a compatible CUDA build.
+vllm==0.20.1
+torch==2.11.0
+transformers==5.7.0

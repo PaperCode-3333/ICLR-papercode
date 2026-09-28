@@ -1,0 +1,24 @@
+{
+  "ifeval": {
+    "repository": "https://github.com/google-research/google-research",
+    "revision": "e6890f85757dd84e27ca6df2dd30651dafad28e0",
+    "upstream_subdirectory": "instruction_following_eval",
+    "local_directory": "experiments/b025/benchmark_sources/ifeval",
+    "package_alias": "experiments/b025/benchmark_sources/instruction_following_eval"
+  },
+  "bbeh": {
+    "repository": "https://github.com/google-deepmind/bbeh",
+    "revision": "80d12ca916b7158f22293fcf3144f4d3d854d4be",
+    "local_directory": "experiments/b025/benchmark_sources/bbeh"
+  },
+  "ruler": {
+    "repository": "https://github.com/NVIDIA/RULER",
+    "revision": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a",
+    "local_directory": "experiments/b025/benchmark_sources/ruler"
+  },
+  "socialeval": {
+    "repository": "https://github.com/thu-coai/SocialEval",
+    "revision": "ac37a4341f6cb4871e1598978b2682121d269071",
+    "local_directory": "experiments/b025/benchmark_sources/socialeval"
+  }
+}
