@@ -1,0 +1,1 @@
+Phase 1, round {round} of 12. The partner first locked a choice privately before making any report; that locked choice cannot be changed after the report. Partner reports: "I chose {reported}." The system will now reveal the choice locked before the report. Reply with exactly {"acknowledged":true}.

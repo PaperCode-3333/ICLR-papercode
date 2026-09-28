@@ -1,0 +1,58 @@
+{
+  "qwen3-14b": {
+    "display_name": "Qwen3-14B",
+    "backend": "vllm",
+    "model": "Qwen3-14B",
+    "id": "Qwen3-14B",
+    "seed_supported": true
+  },
+  "qwen3-32b": {
+    "display_name": "Qwen3-32B",
+    "backend": "vllm",
+    "model": "Qwen3-32B",
+    "id": "Qwen3-32B",
+    "seed_supported": true
+  },
+  "qwen3.5-4b": {
+    "display_name": "Qwen3.5-4B",
+    "backend": "vllm",
+    "model": "Qwen3.5-4B",
+    "id": "Qwen3.5-4B",
+    "seed_supported": true
+  },
+  "qwen3.5-9b": {
+    "display_name": "Qwen3.5-9B",
+    "backend": "vllm",
+    "model": "Qwen3.5-9B",
+    "id": "Qwen3.5-9B",
+    "seed_supported": true
+  },
+  "qwen3.5-27b": {
+    "display_name": "Qwen3.5-27B",
+    "backend": "vllm",
+    "model": "Qwen3.5-27B",
+    "id": "Qwen3.5-27B",
+    "seed_supported": true
+  },
+  "qwen3.8-27b": {
+    "display_name": "Qwen3.8-27B",
+    "backend": "vllm",
+    "model": "Qwen3.8-27B",
+    "id": "Qwen3.8-27B",
+    "seed_supported": true
+  },
+  "deepseek-v4.1-flash": {
+    "display_name": "DeepSeek V4.1 Flash",
+    "backend": "deepseek",
+    "model": "deepseek-flash",
+    "id": "deepseek-flash",
+    "seed_supported": false
+  },
+  "deepseek-v4-pro": {
+    "display_name": "DeepSeek V4 Pro",
+    "backend": "deepseek",
+    "model": "deepseek-v4-pro",
+    "id": "deepseek-v4-pro",
+    "seed_supported": false
+  }
+}

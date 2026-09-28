@@ -1,0 +1,34 @@
+{
+  "project": "../..",
+  "b028_root": ".",
+  "b026_root": "../../configs/reference/b026",
+  "b026_run": "../../data/b026/runs/SOURCE_RUN",
+  "b023_root": "../../configs/reference/b023",
+  "model_root": "../../models",
+  "gpu": 0,
+  "cpu_affinity": "auto",
+  "port": 8000,
+  "gpu_slots": [
+    {
+      "gpu": 0,
+      "port": 8000,
+      "cpu_affinity": "auto"
+    },
+    {
+      "gpu": 1,
+      "port": 8001,
+      "cpu_affinity": "auto"
+    }
+  ],
+  "max_model_len": 8192,
+  "tmp_root": "tmp",
+  "local_workers": 8,
+  "api_workers": 0,
+  "deepseek_request_interval": 0.25,
+  "format_attempts": 3,
+  "request_attempts": 8,
+  "timeout_seconds": 180,
+  "server_startup_timeout_seconds": 600,
+  "gpu_busy_threshold_mib": 1500,
+  "cache_root": ".cache"
+}

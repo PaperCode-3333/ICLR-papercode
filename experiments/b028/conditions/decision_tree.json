@@ -1,0 +1,35 @@
+{
+  "core": [
+    "B0",
+    "B1_COLOR",
+    "B3",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "I10"
+  ],
+  "adaptive": {
+    "I11": "not robust(I03) and not robust(I05)",
+    "I12": "not robust(I07) and not robust(I05)",
+    "I13": "I08 caution distinguishes honesty and not robust(I08)",
+    "I14": "no weaker social condition robust",
+    "I15": "I14 not robust"
+  },
+  "strength": [
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "I11",
+    "I12",
+    "I13",
+    "I14",
+    "I15"
+  ],
+  "expansion": "robust rescue across 4B and 9B, or individual model-level rescue; exclude I10"
+}

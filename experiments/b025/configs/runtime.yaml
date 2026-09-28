@@ -1,0 +1,58 @@
+schema_version: 1
+project_root: ../..
+b025_root: .
+b024_root: ../../data/b024
+allowed_gpus:
+- 0
+- 1
+- 2
+- 3
+allowed_cpus: auto
+gpu_use_requires_b023_complete: true
+forbidden_paths:
+- ../../data/b023
+read_only_inputs:
+- ../../data/b024
+cache:
+  NLTK_DATA: cache/nltk
+  HF_HOME: cache/huggingface
+  TRANSFORMERS_CACHE: cache/huggingface/transformers
+  HF_DATASETS_CACHE: cache/huggingface/datasets
+  XDG_CACHE_HOME: cache/xdg
+  PIP_CACHE_DIR: cache/pip
+  UV_CACHE_DIR: cache/uv
+  TORCH_HOME: cache/torch
+  TMPDIR: tmp
+api:
+  timeout_seconds: 300
+  request_attempts: 8
+  max_backoff_seconds: 60
+  deepseek_request_interval: 0.25
+  model_concurrency: 2
+request_concurrency:
+  vllm: 4
+  deepseek: 4
+local_vllm:
+  python: python
+  host: localhost
+  ports:
+  - 8000
+  - 8001
+  - 8002
+  - 8003
+  tensor_parallel_size: 1
+  dtype: bfloat16
+  gpu_memory_utilization: 0.85
+  max_model_len: 32768
+  max_num_seqs: 16
+  max_num_batched_tokens: 8192
+  cpu_threads_per_model: 12
+  startup_timeout_seconds: 900
+formal:
+  master_seed: 20260916
+  forbid_limit: true
+  forbid_model_subset: true
+  forbid_benchmark_subset: true
+  expected_models: 9
+  expected_benchmarks: 7
+b023_root: ../../data/b023

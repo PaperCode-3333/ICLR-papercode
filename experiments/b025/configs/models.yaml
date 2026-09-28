@@ -1,0 +1,68 @@
+schema_version: 1
+model_root: ../../models
+models:
+  gemma-4-31b-it:
+    display_name: Gemma-4-31B-it
+    backend: vllm
+    actual_id: Gemma-4-31B-it
+    checkpoint: Gemma-4-31B-it
+    family: Gemma
+    vendor: Google
+  qwen3-14b:
+    display_name: Qwen3-14B
+    backend: vllm
+    actual_id: Qwen3-14B
+    checkpoint: Qwen3-14B
+    family: Qwen3
+    vendor: Alibaba-Qwen
+  qwen3-32b:
+    display_name: Qwen3-32B
+    backend: vllm
+    actual_id: Qwen3-32B
+    checkpoint: Qwen3-32B
+    family: Qwen3
+    vendor: Alibaba-Qwen
+  qwen3.5-4b:
+    display_name: Qwen3.5-4B
+    backend: vllm
+    actual_id: Qwen3.5-4B
+    checkpoint: Qwen3.5-4B
+    family: Qwen3.5
+    vendor: Alibaba-Qwen
+  qwen3.5-9b:
+    display_name: Qwen3.5-9B
+    backend: vllm
+    actual_id: Qwen3.5-9B
+    checkpoint: Qwen3.5-9B
+    family: Qwen3.5
+    vendor: Alibaba-Qwen
+  qwen3.5-27b:
+    display_name: Qwen3.5-27B
+    backend: vllm
+    actual_id: Qwen3.5-27B
+    checkpoint: Qwen3.5-27B
+    family: Qwen3.5
+    vendor: Alibaba-Qwen
+  qwen3.8-27b:
+    display_name: Qwen3.8-27B
+    backend: vllm
+    actual_id: Qwen3.8-27B
+    checkpoint: Qwen3.8-27B
+    family: Qwen3.8
+    vendor: Alibaba-Qwen
+  deepseek-v4.1-flash:
+    display_name: DeepSeek V4.1 Flash
+    backend: deepseek
+    actual_id: deepseek-flash
+    endpoint: https://api.deepseek.com/v1/chat/completions
+    api_key_env: DEEPSEEK_API_KEY
+    family: DeepSeek-V4
+    vendor: DeepSeek
+  deepseek-v4-pro:
+    display_name: DeepSeek V4 Pro
+    backend: deepseek
+    actual_id: deepseek-v4-pro
+    endpoint: https://api.deepseek.com/v1/chat/completions
+    api_key_env: DEEPSEEK_API_KEY
+    family: DeepSeek-V4
+    vendor: DeepSeek

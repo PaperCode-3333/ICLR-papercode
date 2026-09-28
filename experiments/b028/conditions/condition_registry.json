@@ -1,0 +1,139 @@
+[
+  {
+    "id": "B0",
+    "name": "baseline_bridge0",
+    "bridge": "bridge_0",
+    "extra": null,
+    "pre_intro": false,
+    "family": "baseline",
+    "b023_source": "C00"
+  },
+  {
+    "id": "B1_COLOR",
+    "name": "color_word_control",
+    "bridge": "bridge_1",
+    "extra": null,
+    "pre_intro": false,
+    "family": "baseline_control",
+    "b023_source": "C09"
+  },
+  {
+    "id": "B3",
+    "name": "baseline_adjective",
+    "bridge": "bridge_3",
+    "extra": null,
+    "pre_intro": false,
+    "family": "baseline",
+    "b023_source": "C02"
+  },
+  {
+    "id": "I03",
+    "name": "adjacent_self_adjective_echo",
+    "bridge": "bridge_3",
+    "extra": "Your previous one-word description of this partner was: \"{self_adjective}\".",
+    "pre_intro": false,
+    "family": "core",
+    "b023_source": "C03"
+  },
+  {
+    "id": "I04",
+    "name": "same_partner_binding_cue",
+    "bridge": "bridge_3",
+    "extra": "The partner in this investment game is exactly the same individual from the first task.",
+    "pre_intro": false,
+    "family": "core",
+    "b023_source": "C04"
+  },
+  {
+    "id": "I05",
+    "name": "social_relevance_cue",
+    "bridge": "bridge_3",
+    "extra": "You may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "pre_intro": false,
+    "family": "core",
+    "b023_source": "C05"
+  },
+  {
+    "id": "I06",
+    "name": "external_matched_adjective",
+    "bridge": "bridge_0",
+    "extra": "The partner descriptor for this session is: \"{matched_adjective}\".",
+    "pre_intro": false,
+    "family": "core",
+    "b023_source": "C06"
+  },
+  {
+    "id": "I07",
+    "name": "external_verified_count",
+    "bridge": "bridge_3",
+    "extra": "System summary: the partner's report matched the previously locked choice in {n} of 12 rounds.",
+    "pre_intro": true,
+    "family": "core",
+    "b023_source": "C07"
+  },
+  {
+    "id": "I08",
+    "name": "ordinal_caution_bridge",
+    "bridge": "bridge_3",
+    "extra": null,
+    "pre_intro": false,
+    "caution": true,
+    "family": "core",
+    "b023_source": "C08"
+  },
+  {
+    "id": "I10",
+    "name": "instrumental_relevance_control",
+    "bridge": "bridge_3",
+    "extra": "In this investment game, the partner's verified report consistency from the first task is predictive of return behavior: partners with more verified-consistent reports have a higher fixed return rate in this game. This relationship is part of the game.",
+    "pre_intro": true,
+    "family": "instrumental",
+    "b023_source": "C10"
+  },
+  {
+    "id": "I11",
+    "name": "echo_plus_social_relevance",
+    "bridge": "bridge_3",
+    "extra": "Your previous one-word description of this partner was: \"{self_adjective}\".\nYou may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "pre_intro": false,
+    "family": "adaptive",
+    "b023_source": "C11"
+  },
+  {
+    "id": "I12",
+    "name": "count_plus_social_relevance",
+    "bridge": "bridge_3",
+    "extra": "System summary: the partner's report matched the previously locked choice in {n} of 12 rounds.\nYou may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "pre_intro": true,
+    "family": "adaptive",
+    "b023_source": "C12"
+  },
+  {
+    "id": "I13",
+    "name": "ordinal_plus_social_relevance",
+    "bridge": "bridge_3",
+    "extra": "You may take your prior assessment of this same partner into account when deciding how cautiously to interact.",
+    "pre_intro": false,
+    "caution": true,
+    "family": "adaptive",
+    "b023_source": "C13"
+  },
+  {
+    "id": "I14",
+    "name": "weak_mapping_cue",
+    "bridge": "bridge_3",
+    "extra": "When deciding how much to invest, lower trust in a partner may justify greater caution; choose the investment amount using your own judgment.",
+    "pre_intro": false,
+    "family": "adaptive",
+    "b023_source": "C14"
+  },
+  {
+    "id": "I15",
+    "name": "strong_monotonic_mapping_upper_bound",
+    "bridge": "bridge_3",
+    "extra": "All else equal, invest more with a partner you judge more trustworthy and less with a partner you judge less trustworthy. Choose the exact amount yourself.",
+    "pre_intro": false,
+    "family": "adaptive",
+    "b023_source": "C15"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "version": "B028-v1",
+  "paradigm": "B_precommit",
+  "source_b026_run": "SOURCE_RUN",
+  "models": [
+    "qwen3.5-4b",
+    "qwen3.5-9b",
+    "qwen3.5-27b"
+  ],
+  "screening_honesty": [
+    "0%",
+    "100%"
+  ],
+  "honesty_levels": [
+    {
+      "name": "0%",
+      "value": 0,
+      "truthful": 0
+    },
+    {
+      "name": "25%",
+      "value": 0.25,
+      "truthful": 3
+    },
+    {
+      "name": "75%",
+      "value": 0.75,
+      "truthful": 9
+    },
+    {
+      "name": "100%",
+      "value": 1,
+      "truthful": 12
+    }
+  ],
+  "core_conditions": [
+    "B0",
+    "B1_COLOR",
+    "B3",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "I10"
+  ],
+  "return_conditions": [
+    "fixed",
+    "variable"
+  ],
+  "fixed_return_rate": 0.6,
+  "linked_rates": {
+    "0%": 0.2,
+    "25%": 0.4,
+    "75%": 0.8,
+    "100%": 1
+  },
+  "variable_rates": [
+    0.56,
+    0.57,
+    0.58,
+    0.59,
+    0.6,
+    0.61,
+    0.62,
+    0.63,
+    0.64,
+    0.56,
+    0.57,
+    0.58,
+    0.59,
+    0.6,
+    0.61,
+    0.62,
+    0.63,
+    0.64,
+    0.6,
+    0.6
+  ],
+  "phase1_rounds": 12,
+  "screening_phase2_rounds": 1,
+  "expansion_phase2_rounds": 20,
+  "model_trials": 60,
+  "temperature": 0.7,
+  "top_p": 1,
+  "max_tokens": 128,
+  "thinking": "disabled",
+  "reasoning_effort": "none",
+  "master_seed": 20260916,
+  "seed_namespace": "B024-formal-v1",
+  "bootstrap_seed": 20260916024,
+  "bootstrap_samples": 10000,
+  "sesoi": 0.5,
+  "action_range_gate": {
+    "min_sd_exclusive": 0.5
+  },
+  "prompt_version": "B028-v1"
+}
